@@ -1,0 +1,40 @@
+.chart__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.chartLine__block {
+    min-width: 80%;
+    position: relative;
+    margin: 20px;
+    height: 20px;
+    background: rgb(187, 187, 237);
+}
+.chart__title {
+    text-align: right;
+    min-width:15%;
+}
+.chart__position {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 50%;
+    width: 100px;
+    height: 100%;
+    background: rgb(120, 216, 175);
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1400px) {
+    .chartLine__block{
+        height: 40px;
+    }
+} 
+
+@media (min-width: 2000px) {
+    .chartLine__block{
+        height: 60px;
+    }
+ } 

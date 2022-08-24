@@ -1,0 +1,16 @@
+.chart .title {
+    font-size: 20px;
+}
+
+@media (min-width: 1400px) {
+    .chart .title {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .chart .title {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+}
